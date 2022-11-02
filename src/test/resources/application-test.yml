@@ -1,0 +1,19 @@
+spring.datasource.driver-class-name: org.h2.Driver
+spring.datasource.url: jdbc:h2:mem:fyndr
+spring.datasource.username: sa
+spring.datasource.password:
+spring.jpa.hibernate.ddl-auto: create-drop
+spring.jpa.defer-datasource-initialization: true
+
+spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled: true
+spring.sql.init.mode: always
+
+spring.jpa.show-sql: true
+
+graph:
+  url: http://localhost:9090/graph-url
+
+web_bucket_name: test-bucket
+
+topic_to_notify: arn:aws:sns:us-west-1:6:test
