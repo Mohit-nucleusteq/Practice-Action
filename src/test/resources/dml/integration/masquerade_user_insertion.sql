@@ -1,3 +1,0 @@
-INSERT INTO indv_master (objid, qrid, bizid, first_name, last_name, phone, ctry_code, email, created_dt, address_line1, address_line2,
-            city, state, country, postal_code, fyndr_handle, yob, gender, is_business, account_status) values (1L, 123L, null, 'firstName', 'lastName', '9999999999', '+91', 'test@email.com', '2022-09-03T10:37:30.00Z',
-            'addressLine1', 'addressLine2', 'city', 'state', 'US', '111011', 'fyndrHandle', '1902', 'M', 'false' , 'ACTIVE');

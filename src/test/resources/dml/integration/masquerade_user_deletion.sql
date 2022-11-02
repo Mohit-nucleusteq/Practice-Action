@@ -1,1 +1,0 @@
-TRUNCATE TABLE indv_master;
