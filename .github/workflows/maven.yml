@@ -1,0 +1,21 @@
+name: CI for PR on master
+
+on:
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up JDK 
+      uses: actions/setup-java@v3
+      with:
+        java-version: '8'
+        distribution: 'temurin'
+        cache: 'maven'
+    - name: Build with Maven
+      run: mvn clean install
