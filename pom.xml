@@ -10,12 +10,6 @@
 	<name>fyndr-admin-api</name>
 	<description>Fyndr Admin Service</description>
 
-	<parent>
-		<groupId>us.fyndr.api</groupId>
-		<artifactId>fyndr-api</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../fyndr-api</relativePath>
-	</parent>
 
 	<properties>
 		<java.version>1.8</java.version>
