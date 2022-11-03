@@ -10,7 +10,6 @@
 	<name>fyndr-admin-api</name>
 	<description>Fyndr Admin Service</description>
 
-
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
